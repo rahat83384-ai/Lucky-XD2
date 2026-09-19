@@ -15,17 +15,17 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "KnightBot!H4sIAAAAAAAAA5VUSY7bRhS9S21bMGeREtCAKVISKWqiJGqKvSiSRYrNUVVFTUYvHGeTReBFFrEXBnKEAIGDAE5W2fkW7RP0EQL2EPcicdogQHz+Kv7/3vvDC5DlEUEWOoLmC1DgaAcpqkx6LBBoglYZBAiDGvAhhaAJHOuYOI4pilSS1mSg7DS7bgXb0RoVB42FUxE2rN1x4WTt9jm4rIGidJPI+0LA9qKQV0W/jrkLjSHrcGT5OCH+ceB3/bTrWZrRWmI55cgyPweXVUQY4SgL28UGpQjDxELHMYzw4+Dzfcid9oc1O9T6/XhnsebYYNbMyVam40Ia90y1rgVdrLJt+3Hw8UxRN4d9P4yZiHOG+VrsGHkZWVtf7gxTb6S3O8hwXIO0xVv4JAoz5Js+ymhEj4/WXdMPrFywZR7rRksYhtM66vVWHM8vl26H1LdJNmWUXHXHc+9xwNeNViCdYla/cGRIGkbqn3XEzUpCfmeeGI3BZB4z3pIs1pv8IfAxvu+V+Gt0X3TYbdiTNWXtxuo+5g3o8JNDzzjG44PCzXaJxEwYm1jyY+HPpJ10kfPjxFEHM4+abiDYktROrWgxwa3wwJ7psjkV0wH7QHdIS/wllF3ibbzDbJg3VF8668kjM9ubG2SGesZs8tx2XD7ujc7oPGdZRfd1jpEk52SP/PnES6MWPxcPw0L1S4lhbJPEAcPtjdb+/IZRjI6mD5rcZQ1gFEaEYkijPKt8klwD0N9NkYcRvVEXdLvH2XFjtMerdgMiJrf6LXXucZzL2guRpGeSt6z3g5DZIvMc1ECBcw8RgnwjIjTHxwEiBIaIgOY3z2sgQwd6W7cqm8DVQBBhQp2sLJIc+vdFvT+EnpeXGZ0eM0+rDIRBk/3sRpRGWUgqGcsMYm8T7ZC2gZSAZgATgv4hiDDy73w1gPOy+s3MgvxLXa46pm6HZiXYXb7qto8ojBJSXRiMeWau2PVgJHL2aqVOVdVS1UqDe3z3db4VkqwFzgzzMkA2dmZQjcso3861+MS5yoJi7LS5xaTj9YWu+G9BqkGZajPipfPtpi5PluNinK94v7fjd/7oYsosWzJewpO+J4u+e5hyykU0uPBmeGtsaQ7pPt0Ky1DNYzbRJ3ypr0krzdK1rp5X2Xy0izz0MNkS5bvWcObJRq+/FRc7BHlmxbt0JRDJd4YslxzOdPcUyIKwdDtaJ+t62oRJHHaitNJRzEt0sjbHpdbdaZtwOpehvtjr9m0HpjetH/mgCRSF5ZR6XVIEQRGbnPSUPNlXJYRF8SRDFNRABqvr4PrH7769fvfmz79+v3739vWnlx8+vfxw9dvPV+9fXb3/6eMvV++///jrs+zxz/W7tz9U7zd/3NivHtivvybOs+wJqIHkhgwvS5LAiZzANkSJVyo61cH9zCd3uza6GYdKgOoziNDN6rrj+f+C3NaqmhH2svYgyN02/I+GbrldvzE1rX4mxBbX5sNeP99aiV0MGgumg2Gdaw3n8WSpNQ4luLx8XgNFAmmQ47Tq3dSFFUtIqPp5JmdRigiFaQGanKw0FJZvNITLvwEZPhL5yAcAAA==",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
+  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "Bot Father",
   MODE: getConfig("MODE") || process.env.MODE || "public",
   REPO: process.env.REPO || "https://github.com/Tomilucky218/Lucky-XD2",
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "256789966218",
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "8801866583384",
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "RAHAT islam",
   DEV: process.env.DEV || "256789966218",
   DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
   MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
