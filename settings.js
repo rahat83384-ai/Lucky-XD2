@@ -15,7 +15,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "LuckyM2-H4sIAAAAAAAAA5VU25KiSBD9l3qVGBUQ0YiOGJSLSKOAguLGPJRQInesKkSc8N83sLun52F3tpenIgsyT55zMn+CoowJMlALpj9BheMrpKg70rZCYApm9emEMGBACCkEU9Bat/72VdZce69NCObuqaCqRV2158PeGsunbT5RIg22tUJewIMBVX3M4uAPCZvtsaGll5hsbFw9Bd4PfTKrL+3oEPDDhNOEY33xbJVN7OYFPLqMMMZxESnVGeUIw8xArQVj/DX4uaINmmVIDO1CzfvAVkeuLJ/2Qi0dJ+nGvPFruS7v6mKRR1+D74mHMO3nB6R4wnGwdJot74y00313nF+9XtW/IG+kWz1znrtv8EkcFSjUQ1TQmLZf5j1YGrHv5CTJC1hEUbhdNrLf9Ieixi1VdeBG6qR2GhJKA/9rwK/rtakObVg0E4Wjgy3HDbavrSp4R3HG973BZNTyu0o6hxr/O3ALf3gl/T+8B6vR5VYGLKtXXq9OaJZypVZx2h6bap2KvLDHlI4847D7Iu+1Vbfz10MeKYI1r/MEJwtX4aFlx3v7hDTsR3vdeSUHHEmf8CGt8Z9Qes4t8/vD9GwRnOXUMUnjGgs0Hrvh3j7jm0DZfhC4y4Ye15q2PrYSMRWrJ9K5Lyxu1b4RlNtmjp3e4VBBcR3mq9o4Ry/PjlLU6iGYDh8MwCiKCcWQxmXxjE3GDIDhdYMCjOiTXtCQ2blGF3kZsLueasQLUaEOy/fOYuSfRsrCayQR237jsfoLYECFywARgsJFTGiJWxMRAiNEwPSvHwwo0I2+CdeV4zgGnGJMqFvUVVbC8EPVj0sYBGVd0E1bBPPugDCYDj7DiNK4iEjHY11AHJzjK5qfISVgeoIZQb86RBiFYEpxjX5N7bwMn8TvlibPmjPAgPwpSByCKRDFwXA8GvI8K4iTKfudfGu6tLCqvhWIAgYUsPsaYJgABmTPfwROGI/FwWgyZFmem7Lfu/DjF9gud4gojDMCpmBuyQntB4pixnoR+pomKZE0jyTw2dyHS95UqLZOFmrcWc/dsFm1yeWmn2dqi18zutWTSWQtnRgOtJXc2i//kKTDt1lSCfawFwlOtdlvLXeUWvKKGj2ft6SZiTcBTvtwdY+Ta/p66B/um3mrqZW+nQiKUcvJYqEfklhk92duV7CswO88qbMUA0J0jQP0ezF/n/ZNIq41lfedsRHlTd+wXX+8YGFCBXdJbaUYkc3spGRhXYahlGfr40r21sdgeElkq0iCM1rVhpWafnOcr5fJ6yiR3vz7nJ/sfW/FT2d1snWvpxg918C7PP8p4xvwzm2DB/NbjvfF8i/DOYPu4LB3KL9ZZotADkqBbHTbCS7t6Oi2et+XW9fP6SyxxRQ8Hj8YUGWQnkqcgykg+RECBuCy7ryrF6fyD5XmUqrP7GjVtZ1BQqXPedjGOSIU5hWYDseTIc/zAssxIG+lqtpQSD/GCEjdY2xS8PgbDQcKH2IHAAA=",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
@@ -24,7 +24,7 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "256789966218",
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "8801751442689",
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
   DEV: process.env.DEV || "256789966218",
   DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
